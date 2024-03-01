@@ -1,5 +1,5 @@
 # Portafolio:
-Este es un repositorio que contiene el código fuente de un proyecto de portfolio personal desarrollado por Julio Bachmann. En este README, se proporciona una visión general del proyecto, las tecnologías utilizadas y cómo acceder a las diferentes secciones del portfolio.
+Este es un repositorio que contiene el código fuente de un proyecto de portfolio personal desarrollado. En este README, se proporciona una visión general del proyecto, las tecnologías utilizadas y cómo acceder a las diferentes secciones del portfolio.
 
 ##Descripción:
 El portfolio es una página web diseñada para mostrar el perfil profesional de Julio Bachmann. Contiene secciones que describen sus habilidades, trabajos realizados y formas de contacto. El diseño es moderno y minimalista, con un enfoque en la presentación clara de la información.
