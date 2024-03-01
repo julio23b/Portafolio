@@ -1,63 +1,33 @@
 //funciòn que carga las animaciones de las habilidades
-function cargarAnimaciones(){
-    $(function(){
-        $('.chart1').easyPieChart({
-            size:160,
-            barColor:"#ff5b00",
-            scaleLength:0,
-            lineWidth:15,
-            tackColor:"#525151",
-            lineCap:"circle",
-            animate:2000,
-        });
-        $('.chart2').easyPieChart({
-            size:160,
-            barColor:"#ff5b00",
-            scaleLength:0,
-            lineWidth:15,
-            tackColor:"#525151",
-            lineCap:"circle",
-            animate:2000,
-        });
-        $('.chart3').easyPieChart({
-            size:160,
-            barColor:"#ff5b00",
-            scaleLength:0,
-            lineWidth:15,
-            tackColor:"#525151",
-            lineCap:"circle",
-            animate:2000,
-        });
-        $('.chart4').easyPieChart({
-            size:160,
-            barColor:"#ff5b00",
-            scaleLength:0,
-            lineWidth:15,
-            tackColor:"#525151",
-            lineCap:"circle",
-            animate:2000,
-        });
-        $('.chart5').easyPieChart({
-            size:160,
-            barColor:"#ff5b00",
-            scaleLength:0,
-            lineWidth:15,
-            tackColor:"#525151",
-            lineCap:"circle",
-            animate:2000,
-        });
-        $('.chart6').easyPieChart({
-            size:160,
-            barColor:"#ff5b00",
-            scaleLength:0,
-            lineWidth:15,
-            tackColor:"#525151",
-            lineCap:"circle",
-            animate:2000,
-        });
+function cargarAnimaciones() {
+    $(function () {
+        var chartSize = 160; 
 
-    })
+        if ($(window).width() <= 800) {
+            chartSize = 120; 
+        }
+
+        $('.chart1, .chart2, .chart3, .chart4, .chart5, .chart6').easyPieChart({
+            size: chartSize,
+            barColor: "#ff5b00",
+            scaleLength: 0,
+            lineWidth: 15,
+            tackColor: "#525151",
+            lineCap: "circle",
+            animate: 2000
+        });
+    });
 }
+
+$(window).resize(function () {
+    cargarAnimaciones(); 
+});
+
+// Llama a la función para cargar las animaciones cuando se cargue la página
+$(document).ready(function () {
+    cargarAnimaciones();
+});
+
 //Función para filtrar las categorías de los trabajos
 function verCategoria(cat){
     const items = document.getElementsByClassName("item");
