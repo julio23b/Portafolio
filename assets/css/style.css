@@ -354,6 +354,7 @@ body {
 }
 
 .contacto .btn {
+    width: 100%;
     background-color: none;
     padding: 5px 40px;
     border: 2px solid #ff3b3f;
