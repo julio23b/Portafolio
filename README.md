@@ -11,10 +11,6 @@ El proyecto utiliza las siguientes tecnologías:
   
   -JavaScript: Para funcionalidades interactivas y dinámicas en el sitio.
   
-  -jQuery: Biblioteca JavaScript utilizada para simplificar la manipulación del DOM.
-  
-  -Easy Pie Chart: Plugin de jQuery para la creación de gráficos circulares animados.
-  
   -Font Awesome: Biblioteca de iconos utilizada para los iconos de redes sociales y otros elementos visuales.
   
 ## Acceso a las Secciones:
