@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Porfolio</title>
@@ -51,113 +49,69 @@
         </section>
     </span>
 
-    <!-- sección habilidades -->
-    <section class="habilidades" id="habilidades">
-        <div class="contenedor-habi">
-            <h2>HABILIDADES</h2>
-            <div class="fila">
-                <div class="col">
-                    <div class="score">
-                        <div class="box">
-                            <div class="chart" data-percent="90">
-                                80%
-                            </div>
-                            <h2>PYTHON</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="score">
-                        <div class="box">
-                            <div class="chart" data-percent="85">
-                                75%
-                            </div>
-                            <h2>JAVASCRIPT</h2>
-                        </div>
+    <main>
+        <!-- sección trabajos -->
+        <section class="trabajos" id="trabajos">
+
+            <h2>MIS TRABAJOS</h2>
+
+            <nav>
+                <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+                <!-- <a href="javascript:void(0)" class="" id="disenio" onclick="verCategoria('disenio')">Diseño</a>
+                <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')">Programación</a>
+                <a href="javascript:void(0)" class="" id="animaciones" onclick="verCategoria('animaciones')">Animaciones</a> -->
+            </nav>
+    
+            <div class="galeria">
+                <div class="item disenio">
+                    <img src="assets/media/img/trabajo.png" alt="">
+                    <div class="info">
+                        <h3>Rotiseria</h3>
+                        <span>html</span><span>css</span><span>javascript</span><span>Python</span><span>Django</span><span>MySql</span>
+                        <h3>Estado del proyecto:
+                             en curso</h3>
+                        <h4>Descripción:
+                            Proyecto final del curso FullStack y Python
+                        </h4>
+                        <a href="https://juliob14.pythonanywhere.com/" target="_blank">Ver Trabajo</a>
                     </div>
                 </div>
             </div>
-            <div class="fila">
-                <div class="col">
-                    <div class="score">
-                        <div class="box">
-                            <div class="chart" data-percent="70">
-                                60%
-                            </div>
-                            <h2>MYSQL</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="score">
-                        <div class="box">
-                            <div class="chart" data-percent="95">
-                                95%
-                            </div>
-                            <h2>HTML & CSS</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="score">
-                        <div class="box">
-                            <div class="chart" data-percent="90">
-                                70%
-                            </div>
-                            <h2>DJANGO</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="score">
-                        <div class="box">
-                            <div class="chart" data-percent="90">
-                                75%
-                            </div>
-                            <h2>BOOSTRAP</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- sección trabajos -->
-    <section class="trabajos" id="trabajos">
-        <h2>MIS TRABAJOS</h2>
-
-        <nav>
-            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
-            <!-- <a href="javascript:void(0)" class="" id="disenio" onclick="verCategoria('disenio')">Diseño</a>
-            <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')">Programación</a>
-            <a href="javascript:void(0)" class="" id="animaciones" onclick="verCategoria('animaciones')">Animaciones</a> -->
-        </nav>
-
-        <div class="galeria">
-            <div class="item disenio">
-                <img src="assets/media/img/trabajo.png" alt="">
-                <div class="info">
-                    <h3>Rotiseria</h3>
-                    <span>html</span><span>css</span><span>javascript</span><span>Python</span><span>Django</span><span>MySql</span>
-                    <h3>Estado del proyecto:</h3>
-                    <h4>En curso</h4>
-                    <a href="https://juliob14.pythonanywhere.com/" target="_blank">Ver Trabajo</a>
-                </div>
-            </div>
-
+    
             <div class="galeria">
                 <div class="item disenio">
                     <img src="assets/media/img/trabajo2.png" alt="">
-                    <div class="info">
-                        <h3>Portafolio</h3>
-                        <span>html</span><span>css</span><span>javascript</span>
-                        <h3>Estado del proyecto:</h3>
-                        <h4>En curso</h4>
-                        <a href="" target="_blank">Ver Trabajo</a>
+                        <div class="info">
+                            <h3>Portafolio</h3>
+                            <span>html</span><span>css</span><span>javascript</span>
+                            <h3>Estado del proyecto:
+                                 en curso</h3>
+                            <a href="" target="_blank">Ver Trabajo</a>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
-          </section>
+
+        <!-- sección habilidades -->
+        <section class="habilidades" id="habilidades">
+            <div class="contenedor-hab">
+                <h2>HABILIDADES</h2>
+                <div class="icono-hab">
+                    <img src="assets/media/iconos/icons8-python-96.png" alt="icono-python">
+                    <img src="assets/media/iconos/icons8-javascript-96.png" alt="icono-js">
+                    <img src="assets/media/iconos/icons8-logo-de-mysql-96.png" alt="icono-mysql">
+                    <img src="assets/media/iconos/icons8-html-5-96.png" alt="icono-html">
+                    <img src="assets/media/iconos/icons8-css3-96.png" alt="icono-css">
+                    <img src="assets/media/iconos/icons8-django-a-high-level-python-web-framework-that-encourages-rapid-development-96.png" alt="icono-dj">
+                    <img src="assets/media/iconos/icons8-vue.js-an-open-source-javascript-framework-for-building-user-interfaces-and-single-page-applications-96.png" alt="icono-vue">
+                    <img src="assets/media/iconos/icons8-oreja-96.png" alt="icono-bootstrap">
+                </div>
+            </div>
+        </section>
+    </main>
+        
 
     <!-- sección contacto -->
     <section class="contacto" id="contacto">
@@ -182,25 +136,18 @@
                         <p>Concordia</p>
                     </div>
                 </div>
-                <form id="form"   action="https://formspree.io/f/xpzvrnzp" method="POST" class="form">
-                        <input type="text" placeholder="Nombre" id="nombre">
-                    
-                        <input type="email" name="email" placeholder="Correo" id="email">
-                    
-                        <input type="text" name="asunto" placeholder="Asunto" id="asunto">
-                    
-                        <textarea name="message" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
-
-                        <button type="submit" class="btn">Enviar</button>
+                <form action="https://formspree.io/f/xpzvrnzp" method="POST" id="id-form">
+                    <input type="text" id="id-nombre" name="Name" placeholder="Nombre:" required>
+                    <input type="email" id="id-email" name="Email" placeholder="Correo:" required>
+                    <input type="text" id="id-asunto" name="Subject" placeholder="Asunto:" required>
+                    <textarea id="id-mensaje" name="Message" cols="30" rows="10" placeholder="Mensaje:" autocomplete="email"></textarea>
+                    <button type="submit" class="btn">Enviar</button>
                 </form>
+                
             </div>
         </div>
     </section>
-
-    <footer>
-        <p>Copyright &copy;2024. All right reserved </p>
-    </footer>
     <script src="assets/js/index.js"></script>
-    <script src="assets/js/valid_form.js"></script>
+
 </body>
 </html>
