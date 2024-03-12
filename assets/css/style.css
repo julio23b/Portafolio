@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: auto;
 }
 
 .inicio .contenido {
@@ -99,8 +100,8 @@ body {
 
 .inicio .fila .col p {
     margin-bottom: 20px;
+    backdrop-filter: blur(200px);
     color: white;
-    text-shadow: 2px 4px 4px black;
 }
 
 .descripcion {
@@ -109,11 +110,6 @@ body {
 
 .descripcion h2 {
     color: #a9a9a9; 
-}
-
-.inicio .fila .col .contenedor-img {
-    max-width: 400px;
-    margin: auto;
 }
 
 .inicio .fila .col .contenedor-img img {
@@ -127,8 +123,9 @@ body {
     border: 2px solid #ff3b3f;
     color: #fff;
     background: linear-gradient(to right, #ff3b3f, #232323); 
-    transition: .5s;
+    transition: 0.2s;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .inicio .fila .col button:hover {
@@ -140,7 +137,7 @@ body {
     width: 30px;
     text-align: center;
     line-height: 30px;
-    border-radius: 50%;
+    border-radius: 50px;
     transition: .3s;
     cursor: pointer;
     display: none;
@@ -221,11 +218,9 @@ main{
     font-weight: bold;
     padding: 3px 10px;
     border: 3px solid transparent;
+    cursor: auto;
 }
 
-.trabajos nav a:hover {
-    border: 3px solid #232323;
-}
 
 /* Esta clase se agregrá dinámicamente cuando haya seleccionada una opción */
 .borde {
@@ -248,7 +243,7 @@ main{
 
 .trabajos .galeria .item {
     position: relative;
-    overflow: hidden;
+    overflow: auto;
     border: 1px solid #8d8d8d;
     border-radius: 10px;
 }
