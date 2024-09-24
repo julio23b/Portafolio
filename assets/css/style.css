@@ -18,7 +18,7 @@ body {
 
 /* SECCION I N I C I O */
 .inicio {
-    background-image: url(../media/img-webp/laptop-2620118_1280.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/img-webp/laptop-2620118_1280.webp);
     clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 50%);
     height: 90vh;
     padding: 0 20px;
@@ -283,6 +283,7 @@ main{
 }
 
 .trabajos .galeria .item:hover .info {
+    transition: all 0.5s ease-in-out;
     opacity: 1;
     top: 0;
 }
