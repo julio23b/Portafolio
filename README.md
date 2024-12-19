@@ -9,10 +9,6 @@ El proyecto utiliza las siguientes tecnologías:
 
   -HTML & CSS: Para la estructura y diseño de la página web.
   
-  -JavaScript: Para funcionalidades interactivas y dinámicas en el sitio.
-  
-  -Font Awesome: Biblioteca de iconos utilizada para los iconos de redes sociales y otros elementos visuales.
-  
 ## Acceso a las Secciones:
   El portfolio está dividido en varias secciones accesibles a través del menú de navegación:
   
@@ -22,7 +18,5 @@ El proyecto utiliza las siguientes tecnologías:
   
   -Trabajos: Sección que muestra algunos de los trabajos realizados, con enlaces para verlos en línea.
   
-  -Contacto: Sección que proporciona información de contacto y un formulario para enviar mensajes.
-
 ## Autor:
   Julio Bachmann
