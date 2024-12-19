@@ -4,85 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Porfolio</title>
 </head>
 <body>
     <!-- Seccion INICIO -->
-    <span class="sombra">
-        <section id="inicio" class="inicio">
-            <div class="contenido">
-                <header>
-                    <div class="logo">
-                        <h1>PORTFOLIO</h1>
-                    </div>
-                    <nav id="nav" class="">
-                        <a href="#inicio" aria-label="Ir a inicio">Inicio</a>
-                        <a href="#habilidades">Habilidades</a>
-                        <a href="#trabajos">Trabajos</a>
-                        <a href="#contacto">Contacto</a>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido">
+            <header>
+                <div class="container my-4">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#trabajos">Proyectos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#habilidades">Habilidades</a>
+                                </li>
+                            </ul>
+                        </div>
                     </nav>
-    
-                    <!-- Icono del menu responsive -->
-                    <div id="icono-nav" onclick="responsiveMenu()">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
-    
-                    <div class="redes">
-                        <a href="https://github.com/julio23b" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
-                        <a href="https://www.linkedin.com/in/julio-bachmann-schreiner-b06a8b278?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bh9DQGS1QQme5mB8js5E%2FZw%3D%3D" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-                    </div>
-                </header>
-                <section class="descripcion">
-                    <div class="fila">
-                        <div class="col">
-                            <h2>Desarrollador Fullstack</h2>
-                            <p>¡Hola! Soy Julio. Me encanta enfrentar retos y en busca de nuevas oportunidades para seguir aprendiendo y creciendo.</p>
-                            <a href="https://drive.google.com/uc?id=1f6nS97-Rn9uaOTXBzqBLkS5JP3ZEm5tA&export=download" target="_blank"> 
-                                <button class="btn btn-1">Descargar CV</button>
-                            </a>
+                </div>
+            </header>
+            <section class="descripcion">
+                <div class="fila">
+                    <div class="col">
+                        <h2 class="cssanimation effect3d sequence">Desarrollador Web</h2>
+                        <p>¡Hola! Soy Julio. Me encanta enfrentar retos y en busca de nuevas oportunidades para seguir aprendiendo y creciendo.</p>
+                        <a href="https://drive.google.com/uc?id=1f6nS97-Rn9uaOTXBzqBLkS5JP3ZEm5tA&export=download" target="_blank"> 
+                            <button class="btn btn-1">Descargar CV</button>
+                        </a>
+                        <div class="redes">
+                            <a href="https://github.com/julio23b" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+                            <a href="https://www.linkedin.com/in/julio-bachmann-schreiner-b06a8b278" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
                         </div>
                     </div>
-                </section>
-            </div>
-        </section>
-    </span>
-
+                </div>
+            </section>
+        </div>
+    </section>
     <main>
         <!-- seccion trabajos -->
         <section class="trabajos" id="trabajos">
-
-            <h2>MIS TRABAJOS</h2>
-            
-            <article class="galeria">
-                <div class="item disenio">
-                    <img src="assets/media/img-webp/trabajo.webp" alt="" loading="lazy>
-                    <div class="info">
-                        <h3>Rotiseria</h3>
-                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Django</span><span>MySql</span>
-                        <h3>Estado del proyecto:
-                             en curso</h3>
-                        <h4>Descripción:
-                            Proyecto final del curso FullStack y Python
-                        </h4>
-                        <a href="https://juliob14.pythonanywhere.com/" target="_blank">Ver Trabajo</a>
-                    </div>
-                </div>
-            </article>
-    
-            <article class="galeria">
-                <div class="item disenio">
-                    <img src="assets/media/img-webp/trabajo2.webp" alt="" loading="lazy>
-                        <div class="info">
-                            <h3>Portafolio</h3>
-                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
-                            <h3>Estado del proyecto:
-                                 en curso</h3>
-                            <a href="" target="_blank">Ver Trabajo</a>
+            <div class ="row">
+                <h2>MIS TRABAJOS</h2>
+                <article class="col-md-6 mb-4">
+                    <div class="galeria">
+                        <div class="item disenio">
+                            <div id="slide-container" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/media/img-webp/Proyectos/trabajo1.webp" class="d-block w-100" alt="Imagen 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/media/img-webp/Proyectos/trabajo2.webp" class="d-block w-100" alt="Imagen 2">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h3>
+                                    Rotiseria
+                                </h3>
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Django</span><span>MySql</span>
+                                <h3>Estado del proyecto:
+                                     en curso
+                                </h3>
+                                <h3>Descripción:
+                                    Proyecto final del curso FullStack y Python
+                                </h3>
+                                <a href="https://github.com/julio23b/Tp_Final_Rotiseria" target="_blank">Ver Trabajo</a>
+                            </div>
                         </div>
-                </div>
-            </article>
+                    </div> 
+                </article>
+        
+                <article class="col-md-6 mb-4">
+                    <div class="galeria">
+                        <div class="item disenio">
+                            <div id="slide-container" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/media/img-webp/Proyectos/Portafolio1.webp" class="d-block w-100" alt="Imagen 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/media/img-webp/Proyectos/Portafolio2.webp" class="d-block w-100" alt="Imagen 2">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h3>Portafolio</h3>
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                                <h3>Estado del proyecto: en curso</h3>
+                                <a href="" target="_blank">Ver Trabajo</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-6 mb-4">
+                    <div class="galeria">
+                        <div class="item disenio">
+                            <div id="slide-container" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/media/img-webp/Proyectos/la-conquista1.webp" class="d-block w-100" alt="Imagen 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/media/img-webp/Proyectos/la-conquista2.webp" class="d-block w-100" alt="Imagen 2">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h3>La Conquista</h3>
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span>
+                                <h3>Estado del proyecto: Finalizado</h3>
+                                <a href="https://github.com/julio23b/La-Conquista" target="_blank">Ver Trabajo</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+
         </section>
 
 
@@ -92,53 +146,36 @@
                 <h2>HABILIDADES</h2>
                 <div class="icono-hab">
                     <img rel="preload" src="https://img.icons8.com/color/96/python--v1.png" alt="python-logo"/>
+                    <img rel="preload" src="https://img.icons8.com/?size=100&id=lTKW3iI3wIT0&format=png&color=000000" alt="java-log">
                     <img rel="preload" src="https://img.icons8.com/color/96/javascript--v1.png" alt="javascript-logo"/>
                     <img rel="preload" src="https://img.icons8.com/color/96/mysql-logo.png" alt="mysql-logo"/>
                     <img rel="preload" src="https://img.icons8.com/color/96/html-5--v1.png" alt="html-5-logo"/>
                     <img rel="preload" src="https://img.icons8.com/color/96/css3.png" alt="css3-logo"/>
                     <img rel="preload" src="https://img.icons8.com/external-tal-revivo-filled-tal-revivo/96/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-filled-tal-revivo.png" alt="logo-django"/>
-                    <img rel="preload" src="https://img.icons8.com/external-tal-revivo-filled-tal-revivo/96/external-vuejs-an-open-source-javascript-framework-for-building-user-interfaces-and-single-page-applications-logo-filled-tal-revivo.png" alt="logo-vue"/>
                     <img rel="preload" src="https://img.icons8.com/color-glass/96/bootstrap.png" alt="logo-bootstrap"/>
                 </div>
             </div>
         </section>
     </main>
-        
-
-    <!-- seccion contacto -->
-    <section class="contacto" id="contacto">
-        <div class="contenedor-contacto">
-            <h2>Contacto</h2>
-            <div class="fila">
-                <div class="col">
-                    <div class="info">
-                        <h3>Email:</h3>
-                        <p>Juliobachmann14@gmail.com</p>
-                    </div>
-                    <div class="info">
-                        <h3>Teléfono:</h3>
-                        <p>+54 3456-445095</p>
-                    </div>
-                    <div class="info">
-                        <h3>País</h3>
-                        <p>Argentina</p>
-                    </div>
-                    <div class="info">
-                        <h3>Ciudad:</h3>
-                        <p>Concordia</p>
-                    </div>
+    <footer class="bg-dark text-white pt-4">
+        <div class="container">
+            <div class="row">
+                <!-- Información de contacto -->
+                <div class="col-md-4 mb-3">
+                    <h5>Contacto</h5>
+                    <p>Email: juliobachmann14@gmail.com</p>
+                    <p>Tel: +54 3456445095</p>
                 </div>
-                <form action="https://formspree.io/f/xpzvrnzp" method="POST" id="id-form">
-                    <input type="text" id="id-nombre" name="Name" placeholder="Nombre:" required>
-                    <input type="email" id="id-email" name="Email" placeholder="Correo:" required>
-                    <input type="text" id="id-asunto" name="Subject" placeholder="Asunto:" required>
-                    <textarea id="id-mensaje" name="Message" cols="30" rows="10" placeholder="Mensaje:" autocomplete="email"></textarea>
-                    <button type="submit" class="btn">Enviar</button>
-                </form>
-                
+                <!-- Redes sociales -->
+                <div class="col-md-4 mb-3">
+                    <h5>Sígueme</h5>
+                    <a href="https://github.com/julio23b" class="text-white mx-2" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/julio-bachmann-schreiner-b06a8b278" class="text-white mx-2" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                </div>
             </div>
         </div>
-    </section>
-    <script src="assets/js/index.js"></script>
+    </footer>    
+
+    <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
