@@ -14,9 +14,9 @@ El proyecto utiliza las siguientes tecnologías:
   
   -Inicio: Sección principal que muestra una breve descripción y un botón para descargar CV.
   
+  -Trabajos: Sección que muestra algunos de los trabajos realizados, con enlaces para verlos en línea.
+
   -Habilidades: Sección que presenta las habilidades con gráficos circulares que indican su nivel de dominio en diferentes tecnologías.
   
-  -Trabajos: Sección que muestra algunos de los trabajos realizados, con enlaces para verlos en línea.
+
   
-## Autor:
-  Julio Bachmann
